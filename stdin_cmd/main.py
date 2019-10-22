@@ -11,7 +11,7 @@ def add(arg1, arg2):
 
 @command(args=2, usage='minus <arg1: Integer or Float> <arg2: Integer or Float>')
 def minus(arg1, arg2):
-    """Adds two numbers together."""
+    """Subtracts one number from another number."""
     arg1 = float(arg1)
     arg2 = float(arg2)
     print(f"Your answer is {arg1 - arg2}.")
