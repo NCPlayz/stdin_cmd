@@ -32,6 +32,12 @@ def divide(arg1, arg2):
     arg2 = float(arg2)
     print(f"Your answer is {arg1 / arg2}.")
 
+@command(args=2, usage='mod <arg1: Integer or Float> <arg2: Integer or Float>')
+def mod(arg1, arg2):
+    """gets the remainder of arg1 over arg2."""
+    arg1 = float(arg1)
+    arg2 = float(arg2)
+    print(f"Your answer is {arg1 % arg2}.")
 
 if __name__ == '__main__':
     exec_command()
